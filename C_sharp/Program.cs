@@ -51,7 +51,7 @@ namespace FreeCodeCamp
             //}
             //method in c sharp
             //method is like a container Main method is special
-            sayHi();
+            //sayHi();
             //two dimensional array
             int[,] numbers = { { 1, 2, 3, 4, }, { 2, 3, 4, 5, } };
             for ( int i = 0 ; i < numbers.GetLength(0); i++)
@@ -81,6 +81,11 @@ namespace FreeCodeCamp
             book.title = "RealWorld";
             Console.WriteLine(book.title);
             //C sharp class Construtor
+            book.Rating = "sdsk";
+            Console.WriteLine(book.Rating);
+            Book.test_simple();
+            
+            //static arrtribute in c sharp
             
 
         }
@@ -88,5 +93,7 @@ namespace FreeCodeCamp
         {
             Console.WriteLine("hello");
         }
+
+
     }
 }
